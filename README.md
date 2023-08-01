@@ -1,1 +1,2 @@
-# Lab_05
+This project uses a Flask web application to identify common fish species based on their physical characteristics. The app's interactive frontend allows users to input fish measurements and get real-time predictions, and the machine learning model was trained using a Random Forest Classifier. The user experience is improved by the app's clean, responsive UI and CSS styling. Users can quickly access the prediction feature by going to the Heroku app that is being hosted. The project shows how to combine HTML/CSS, Flask, and scikit-learn technologies to make a user-friendly web application for predicting fish species.
+Link to web site: https://fishapp-70c986c0b541.herokuapp.com/
