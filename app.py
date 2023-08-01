@@ -103,6 +103,10 @@ def predict():
     
     except Exception as e:
         return jsonify({"error": str(e)})
-
+# Serve the frontend webpage
+@app.route('/')
+def index():
+    return render_template('index.html')
+    
 if __name__ == '__main__':
     app.run(debug=True)
